@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kellytang.github.io/"/>
-  <updated>2017-10-24T08:14:30.386Z</updated>
+  <updated>2017-10-24T08:20:16.600Z</updated>
   <id>https://kellytang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/"/>
     <id>https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/</id>
     <published>2017-10-23T13:00:00.000Z</published>
-    <updated>2017-10-24T08:14:30.386Z</updated>
+    <updated>2017-10-24T08:20:16.600Z</updated>
     
     <content type="html"><![CDATA[<p>A graph depicting trends in hospital bed numbers, as a function of population, in five countries in the Asia-Pacific.</p><h2 id="australia-a-steady-decline"><a class="markdownIt-Anchor" href="#australia-a-steady-decline"></a> Australia: A steady decline</h2><center><img src="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/ausBedsPer1000.png" alt="ausBedsPer1000.png" title=""></center><p>Hospital beds per capita have been in steady decline in Australia since 1960, with a small period of rise in the mid-1970s. This has been partly a natural consequence of population growth, and partly due to a marked cutting back of hospital beds in between 1980-2000. Since the turn of the century, however, there has been a renewed investment in hospital beds, as depicted in the following graph. This investment has not been sufficient to reverse the continued decline in hospital beds per person.</p><center><img src="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/ausBedsTotal.png" alt="ausBedsTotal.png" title=""></center><blockquote><p><strong>Tools used:</strong> RStudio</p></blockquote>]]></content>
     
