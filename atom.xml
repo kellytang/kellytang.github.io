@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kellytang.github.io/"/>
-  <updated>2017-10-31T06:00:46.300Z</updated>
+  <updated>2017-11-07T06:03:55.391Z</updated>
   <id>https://kellytang.github.io/</id>
   
   <author>
@@ -17,20 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hospital beds per capita in the Asia-Pacific</title>
-    <link href="https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/"/>
-    <id>https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/</id>
-    <published>2017-10-23T13:00:00.000Z</published>
-    <updated>2017-10-31T06:00:46.300Z</updated>
+    <title>Which US airlines are the least delayed?</title>
+    <link href="https://kellytang.github.io/2017/11/07/Which-US-airlines-have-the-least-delays/"/>
+    <id>https://kellytang.github.io/2017/11/07/Which-US-airlines-have-the-least-delays/</id>
+    <published>2017-11-06T13:00:00.000Z</published>
+    <updated>2017-11-07T06:03:55.391Z</updated>
     
-    <content type="html"><![CDATA[<p>A graph depicting trends in hospital bed numbers, as a function of population, in five countries in the Asia-Pacific.</p><h2 id="australia-a-steady-decline"><a class="markdownIt-Anchor" href="#australia-a-steady-decline"></a> Australia: A steady decline</h2><center><img src="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/ausBedsPer1000.png" alt="ausBedsPer1000.png" title=""></center><p>Hospital beds per capita have been in steady decline in Australia since 1960, with a small period of rise in the mid-1970s. This has been partly a natural consequence of population growth, and partly due to a marked cutting back of hospital beds in between 1980-2000. Since the turn of the century, however, there has been a renewed investment in hospital beds, as depicted in the following graph. This investment has not been sufficient to reverse the continued decline in hospital beds per person.</p><center><img src="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/ausBedsTotal.png" alt="ausBedsTotal.png" title=""></center><blockquote><p><strong>Main tools:</strong> R, tidyverse<br><strong>How they were used:</strong> I explored, tidied, and visualised the data.</p><p>Colourblind-friendly.</p></blockquote> ]]></content>
+    <content type="html"><![CDATA[<p>Residuals of arrival and departure delays for flights departing from NYC in 2013, as calculated by <strong>(mean carrier delay per destination) - (mean airport delay)</strong>. Each point represents a specific airport destination for that carrier.</p><blockquote><p><strong>Main tools used:</strong> R, tidyverse + <a href="https://cran.rstudio.com/web/packages/nycflights13/index.html" target="_blank" rel="external">nycflights13</a> data package<br><strong>How they were used:</strong> I explored, filtered, transformed, and visualised the data. Particular filters used include</p><ul><li>Removing cancelled flights</li><li>Removing destinations visited by less than 3 carriers (improving the residual plot)</li><li>Removing carrier-destination pairs which occurred 10 or less times in the original data (improving the plot as many of these had extreme residuals). With these gone the mean tally went from <code>1258</code> to <code>1446</code>.</li></ul></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;A graph depicting trends in hospital bed numbers, as a function of population, in five countries in the Asia-Pacific.&lt;/p&gt;
-&lt;h2 id=&quot;austral
+        &lt;p&gt;Residuals of arrival and departure delays for flights departing from NYC in 2013, as calculated by &lt;strong&gt;(mean carrier delay per destin
+      
+    
+    </summary>
+    
+    
+      <category term="Transport" scheme="https://kellytang.github.io/tags/Transport/"/>
+    
+      <category term="United States" scheme="https://kellytang.github.io/tags/United-States/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hospital beds per capita in the Asia-Pacific</title>
+    <link href="https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/"/>
+    <id>https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/</id>
+    <published>2017-10-23T13:00:00.000Z</published>
+    <updated>2017-11-07T05:55:23.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>Trends in hospital bed numbers, as a function of population, in five countries in the Asia-Pacific.</p><h2 id="australia-a-closer-look"><a class="markdownIt-Anchor" href="#australia-a-closer-look"></a> Australia: A closer look</h2><center><img src="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/ausBedsPer1000.png" alt="ausBedsPer1000.png" title=""></center><p>Hospital beds per capita have been in steady decline in Australia since 1960, with a small period of rise in the mid-1970s. This has been partly a natural consequence of population growth, and partly due to a marked cutting back of hospital beds in between 1980-2000. Since the turn of the century, however, there has been a renewed investment in hospital beds, as depicted in the following graph. This investment has not been sufficient to reverse the continued decline in hospital beds per person.</p><center><img src="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/ausBedsTotal.png" alt="ausBedsTotal.png" title=""></center><blockquote><p><strong>Main tools:</strong> R, tidyverse<br><strong>How they were used:</strong> I explored, tidied, and visualised the data.</p><p><a href="http://jfly.iam.u-tokyo.ac.jp/color/#pallet" target="_blank" rel="external">Colourblind-friendly.</a></p></blockquote> ]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Trends in hospital bed numbers, as a function of population, in five countries in the Asia-Pacific.&lt;/p&gt;
+&lt;h2 id=&quot;australia-a-closer-look&quot;&gt;
       
     
     </summary>
@@ -65,27 +90,6 @@
       
         &lt;h2 id=&quot;java-fizzbuzz-original&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#java-fizzbuzz-original&quot;&gt;&lt;/a&gt; Java: FizzBuzz original&lt;/h2&gt;
 &lt;figure class=
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://kellytang.github.io/2017/10/22/hello-world%20-%20Copy%20(3)/"/>
-    <id>https://kellytang.github.io/2017/10/22/hello-world - Copy (3)/</id>
-    <published>2017-10-22T05:52:47.741Z</published>
-    <updated>2017-10-22T00:39:22.184Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
       
     
     </summary>

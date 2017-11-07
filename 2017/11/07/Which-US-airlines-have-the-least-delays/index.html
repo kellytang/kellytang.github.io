@@ -20,6 +20,8 @@
 
     <!--Open Graph Title-->
     
+        <meta property="og:title" content="Which US airlines are the least delayed?"/>
+    
 
     <!--Open Graph Site Name-->
     <meta property="og:site_name" content="Data Visualisation &amp; Analysis"/>
@@ -31,7 +33,7 @@
 
     <!-- Title -->
     
-    <title>Archives: 2017 - Data Visualisation &amp; Analysis</title>
+    <title>Which US airlines are the least delayed? - Data Visualisation &amp; Analysis</title>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/sass/main.css">
@@ -119,43 +121,51 @@
                 <!-- Main Content -->
                 
 
-<section class="archives">
+    <h1 class="title">Which US airlines are the least delayed?</h1>
+    <div class="meta">
+        2017-11-07
+    </div>
+
+
+    <span class="image main"><img src="nycflights-dests-per-carrier-cover-detail.png" alt="" /></span>
+
+
+<!-- Gallery -->
+
+
+<!-- Content -->
+<p>Residuals of arrival and departure delays for flights departing from NYC in 2013, as calculated by <strong>(mean carrier delay per destination) - (mean airport delay)</strong>. Each point represents a specific airport destination for that carrier.</p>
+<blockquote><p><strong>Main tools used:</strong> R, tidyverse + <a href="https://cran.rstudio.com/web/packages/nycflights13/index.html" target="_blank" rel="external">nycflights13</a> data package<br>
+<strong>How they were used:</strong> I explored, filtered, transformed, and visualised the data. Particular filters used include</p>
+<ul>
+<li>Removing cancelled flights</li>
+<li>Removing destinations visited by less than 3 carriers (improving the residual plot)</li>
+<li>Removing carrier-destination pairs which occurred 10 or less times in the original data (improving the plot as many of these had extreme residuals). With these gone the mean tally went from <code>1258</code> to <code>1446</code>.</li>
+</ul>
+</blockquote>
+
+<!-- Tags -->
+
+
+
+<div class="tags">
+    <a href="/tags/Transport/" class="button small">Transport</a> <a href="/tags/United-States/" class="button small">United States</a>
+</div>
+
+
+
+<!-- Comments -->
+<div>
     
-    <ul class="archive-list">
-        
-            <li>
-    <a href="/2017/11/07/Which-US-airlines-have-the-least-delays/">Which US airlines are the least delayed?</a>
-</li>
+    <hr />
+    <h3>Comments:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 
-        
-            <li>
-    <a href="/2017/10/22/debugging/">Debugging</a>
-</li>
 
-        
-            <li>
-    <a href="/2017/10/22/hello-world - Copy/">Hello World</a>
-</li>
 
-        
-            <li>
-    <a href="/2017/10/22/hello-world - Copy (2)/">Hello World</a>
-</li>
-
-        
-            <li>
-    <a href="/2017/10/22/hello-world/">Hello World</a>
-</li>
-
-        
-            <li>
-    <a href="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/">Hospital beds per capita in the Asia-Pacific</a>
-</li>
-
-        
-    </ul>
-</section><!-- end main -->
-
+</div>
 
 
 
@@ -233,7 +243,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
