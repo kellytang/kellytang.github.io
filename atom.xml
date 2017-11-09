@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kellytang.github.io/"/>
-  <updated>2017-11-07T08:40:34.226Z</updated>
+  <updated>2017-11-09T01:22:48.586Z</updated>
   <id>https://kellytang.github.io/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Which US airlines were the least delayed?</title>
-    <link href="https://kellytang.github.io/2017/11/07/US-airlines-least-delayed/"/>
-    <id>https://kellytang.github.io/2017/11/07/US-airlines-least-delayed/</id>
+    <title>Which US airlines were less delayed?</title>
+    <link href="https://kellytang.github.io/2017/11/07/US-airlines-less-delayed/"/>
+    <id>https://kellytang.github.io/2017/11/07/US-airlines-less-delayed/</id>
     <published>2017-11-06T13:00:00.000Z</published>
-    <updated>2017-11-07T08:40:34.226Z</updated>
+    <updated>2017-11-09T01:22:48.586Z</updated>
     
-    <content type="html"><![CDATA[<p>Residuals of arrival and departure delays for flights departing from NYC in 2013, as calculated by <strong>(mean carrier delay per destination) - (mean airport delay)</strong>. This is done to disentangle the influence of good/bad airports on delays.</p><p>Each point represents a specific airport destination for that carrier. A summary of the above chart is below.</p><center><img src="/2017/11/07/US-airlines-least-delayed/nycflights-summary-by-carrier.png" alt="nycflights-summary-by-carrier.png" title=""></center><blockquote><p><strong>Main tools used:</strong> R, tidyverse + <a href="https://cran.rstudio.com/web/packages/nycflights13/index.html" target="_blank" rel="external">nycflights13</a> data package<br><strong>How they were used:</strong> I explored, filtered, transformed, and visualised the data. Particular filters used include</p><ul><li>Removing cancelled flights</li><li>Removing destinations visited by less than 3 carriers (improving the residual plot)</li><li>Removing carrier-destination pairs which occurred 10 or less times in the original data (improving the plot as many of these had extreme residuals). With these gone the mean tally went from <code>1258</code> to <code>1446</code>.</li></ul></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>Residuals of arrival and departure delays for flights departing from NYC in 2013, as calculated by <strong>(mean carrier delay per destination) - (mean airport delay)</strong>. This is done to disentangle the influence of good/bad airports on delays.</p><p>Each point represents a specific airport destination for that carrier. Lower values are better.</p><p>A summary of the above chart using weighted means is below.</p><center><img src="/2017/11/07/US-airlines-less-delayed/nycflights-summary-by-carrier.png" alt="nycflights-summary-by-carrier.png" title=""></center><blockquote><p><strong>Main tools used:</strong> R, tidyverse + <a href="https://cran.rstudio.com/web/packages/nycflights13/index.html" target="_blank" rel="external">nycflights13</a> data package<br><strong>How they were used:</strong> I explored, filtered, transformed, and visualised the data. Particular filters used include</p><ul><li>Removing cancelled flights</li><li>Removing destinations visited by less than 3 carriers (improving the residual plot)</li><li>Removing carrier-destination pairs which occurred 10 or less times in the original data (improving the plot as many of these had extreme residuals). With these gone the mean tally went from <code>1258</code> to <code>1446</code>.</li></ul></blockquote>]]></content>
     
     <summary type="html">
     
@@ -43,12 +43,12 @@
   
   <entry>
     <title>Hospital beds per capita in the Asia-Pacific</title>
-    <link href="https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/"/>
-    <id>https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/</id>
+    <link href="https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-Asia-Pacific/"/>
+    <id>https://kellytang.github.io/2017/10/24/Hospital-beds-per-capita-Asia-Pacific/</id>
     <published>2017-10-23T13:00:00.000Z</published>
-    <updated>2017-11-07T05:55:23.591Z</updated>
+    <updated>2017-11-09T01:19:25.963Z</updated>
     
-    <content type="html"><![CDATA[<p>Trends in hospital bed numbers, as a function of population, in five countries in the Asia-Pacific.</p><h2 id="australia-a-closer-look"><a class="markdownIt-Anchor" href="#australia-a-closer-look"></a> Australia: A closer look</h2><center><img src="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/ausBedsPer1000.png" alt="ausBedsPer1000.png" title=""></center><p>Hospital beds per capita have been in steady decline in Australia since 1960, with a small period of rise in the mid-1970s. This has been partly a natural consequence of population growth, and partly due to a marked cutting back of hospital beds in between 1980-2000. Since the turn of the century, however, there has been a renewed investment in hospital beds, as depicted in the following graph. This investment has not been sufficient to reverse the continued decline in hospital beds per person.</p><center><img src="/2017/10/24/Hospital-beds-per-capita-in-the-Asia-Pacific/ausBedsTotal.png" alt="ausBedsTotal.png" title=""></center><blockquote><p><strong>Main tools:</strong> R, tidyverse<br><strong>How they were used:</strong> I explored, tidied, and visualised the data.</p><p><a href="http://jfly.iam.u-tokyo.ac.jp/color/#pallet" target="_blank" rel="external">Colourblind-friendly.</a></p></blockquote> ]]></content>
+    <content type="html"><![CDATA[<p>Trends in hospital bed numbers, as a function of population, in five countries in the Asia-Pacific.</p><h2 id="australia-a-closer-look"><a class="markdownIt-Anchor" href="#australia-a-closer-look"></a> Australia: A closer look</h2><center><img src="/2017/10/24/Hospital-beds-per-capita-Asia-Pacific/ausBedsPer1000.png" alt="ausBedsPer1000.png" title=""></center><p>Hospital beds per capita have been in steady decline in Australia since 1960, with a small period of rise in the mid-1970s. This has been partly a natural consequence of population growth, and partly due to a marked cutting back of hospital beds in between 1980-2000. Since the turn of the century, however, there has been a renewed investment in hospital beds, as depicted in the following graph. This investment has not been sufficient to reverse the continued decline in hospital beds per person.</p><center><img src="/2017/10/24/Hospital-beds-per-capita-Asia-Pacific/ausBedsTotal.png" alt="ausBedsTotal.png" title=""></center><blockquote><p><strong>Main tools:</strong> R, tidyverse<br><strong>How they were used:</strong> I explored, tidied, and visualised the data.</p><p><a href="http://jfly.iam.u-tokyo.ac.jp/color/#pallet" target="_blank" rel="external">Colourblind-friendly.</a></p></blockquote> ]]></content>
     
     <summary type="html">
     
